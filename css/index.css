@@ -166,6 +166,18 @@ cursor:pointer;
 	float: left;
 	margin-right: 14px;
 }
+.danpin-contants{
+	width: 234px;
+	height: 300px;
+	background-color: #fafafa;
+	
+	float: left;
+	margin-right: 14px;
+}
+.danpin-contants4{
+	margin-right: 0;
+} 
+
 .danpin-img{
 	width: 160px;
 	height: 166px;
@@ -277,6 +289,7 @@ cursor:pointer;
 .goods{
 	width: 100%;
 	background-color: #f5f5f5;
+	overflow: hidden;
 
 }
 .jiadian{
@@ -346,6 +359,11 @@ cursor:pointer;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	position: relative;
+	overflow: hidden;
+}
+.jiadian-item:hover .jiadian-item6{
+	bottom: 0px;
 }
 .jiadian-item1{
 	width: 64px;
@@ -421,3 +439,100 @@ cursor:pointer;
 	float: right;
 	margin-right: 10px;
 }
+.zhineng-right{
+	width: 100%;
+}
+.jiadian-item,.jiadian-items1,.jiadian-left,.jiadian-item6,.danpin-contants,.video-item{
+	transition: all .5s linear;
+}
+
+.jiadian-item:hover,.jiadian-items1:hover,.jiadian-left:hover,.danpin-contants:hover
+,.video-item:hover{
+    box-shadow: 0px 10px 18px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+.jiadian-item6{
+	width: 100%;
+	height: 80px;
+	background-color: orangered;
+	position: absolute;
+	bottom: -80px;
+}
+.tuijian{
+	height: 378px;
+
+}
+.tuijian-bottom{
+	width: 100%;
+	height: 320px;
+}
+.tuijian .danpin-contant{
+	border: 0;
+	height: 280px;
+	background-color: #fff;
+}
+.video{
+	width: 1226px;
+	height: 343px;
+	/* background-color: pink; */
+	margin: 0 auto;
+	margin-top: 22px;
+}
+.video-right a{
+	font-size: 14px;
+	color: #333;
+}
+.video-right{
+	width: 90px;
+	height: 100%;
+	float: right;
+}
+.video-bottom{
+	width: 100%;
+	height: 285px;
+/* 	background-color: green; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.video-item{
+	height: 100%;
+	width: 285px;
+	background-color: #fff;
+}
+.video-item1{
+	height: 180px;
+	width: 100%;
+	background-color: plum;
+	position: relative;
+}
+.video-item1 .play{
+	position: absolute;
+	left: 20px;
+	bottom: 10px;
+	font-size: 30px;
+}
+.video-item2{
+	font-size: 14px;
+	color: #424242;
+	display: block;
+	text-align: center;
+	margin-top: 28px;
+}
+.video-item3{
+	font-size: 14px;
+	color: #b0b0b0;
+	display: block;
+	text-align: center;
+	margin-top: 6px;
+}
+.video-item1 a.iconfont{
+	color: #fff;
+}
+.video-item1 a.iconfont:hover{
+	color: orangered;
+}
+
+
+
