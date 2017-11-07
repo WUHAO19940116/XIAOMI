@@ -3,6 +3,8 @@
 	padding: 0;
 	text-decoration:none;
 	font-family: '微软雅黑','苹方';
+	box-sizing: border-box;
+	list-style: none;
 }
 img{
 	width: 100%;
